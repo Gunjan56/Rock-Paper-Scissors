@@ -13,20 +13,24 @@ body{
 h1{
     background-color: #081b31;
     color: #fff;
-    height: 5rem;
-    line-height: 5rem;
+    height: 10vmin;
+    line-height: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .choice{
-    height: 165px;
-    width: 165px;
+    height: 25vmin;
+    width: 25vmin;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 img{
-    height: 150px;
-    width: 150px;
+    height: 25vmin;
+    width: 25vmin;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -35,7 +39,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:1rem;
+    gap:2rem;
     margin-top: 5rem;
 }
 
@@ -49,13 +53,13 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 6vmin;
     margin-top: 3rem;
     gap: 5rem;
 }
 
 #user-score, #comp-score{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .msg-container{
@@ -65,7 +69,7 @@ img{
     background-color: #081b31;
     color: #fff;
     font-size: 2rem;
-    display: inline;
+    display: inline-flex;
     padding: 1rem;
     border-radius: 1rem;
 }
